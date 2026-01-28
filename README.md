@@ -1,147 +1,80 @@
 <div align="center">
 
+# 🚲 Citi Bike NYC (2016)  
+### Analyse Big Data avec Apache Spark & PySpark  
 
-
-\# 🚲 Citi Bike NYC (2016)  
-
-\### Big Data Analysis with Apache Spark \& PySpark
-
-
-
-Large-scale analysis of New York City bike-sharing trips using distributed data processing.
-
-
+Analyse à grande échelle des trajets du système de vélos en libre-service de New York, en utilisant le traitement distribué.
 
 </div>
 
+---
 
+## 📌 Présentation
+
+Ce dépôt contient un **projet complet d’analyse Big Data** basé sur les données de trajets **Citi Bike NYC (2016)**.  
+L’analyse est réalisée dans un **Notebook Jupyter** en utilisant **Apache Spark et PySpark**, illustrant un workflow complet d’analytique sur un dataset réel.
+
+Ce projet est publié comme un **projet portfolio personnel**.
 
 ---
 
+## 🎯 Objectifs du Projet
 
-
-\## 📌 Overview
-
-
-
-This repository contains a \*\*complete Big Data analysis project\*\* based on \*\*Citi Bike NYC trip data (2016)\*\*.  
-
-The analysis is implemented in a \*\*Jupyter Notebook\*\* using \*\*Apache Spark and PySpark\*\*, showcasing an end-to-end data analytics workflow on a real-world dataset.
-
-
-
-This project is published as a \*\*personal portfolio project\*\*.
-
-
+- Traiter de grands fichiers CSV avec **Apache Spark**
+- Effectuer le nettoyage et le prétraitement des données à grande échelle
+- Exécuter des requêtes analytiques avec **Spark SQL** et l’API **DataFrame**
+- Étudier les tendances temporelles et la popularité des stations
+- Visualiser les principaux résultats issus des données de trajets
 
 ---
 
+## 🧰 Technologies Utilisées
 
-
-\## 🎯 Project Goals
-
-
-
-\- Process large CSV datasets using \*\*Apache Spark\*\*
-
-\- Perform data cleaning and preprocessing at scale
-
-\- Execute analytical queries with \*\*Spark SQL\*\* and \*\*DataFrame API\*\*
-
-\- Analyze temporal usage patterns and station popularity
-
-\- Visualize key insights from bike-sharing data
-
-
+| Catégorie        | Outils |
+|------------------|--------|
+| Big Data         | Apache Spark |
+| Traitement       | PySpark (SQL & DataFrame API) |
+| Langage          | Python 3 |
+| Environnement    | Jupyter Notebook |
+| Visualisation    | Matplotlib, Pandas |
 
 ---
 
+## 📊 Jeu de Données
 
+Le dataset est fourni par **Citi Bike New York City Open Data** et contient des trajets anonymisés.
 
-\## 🧰 Tech Stack
-
-
-
-| Category | Tools |
-
-|--------|------|
-
-| Big Data | Apache Spark |
-
-| Processing | PySpark (SQL \& DataFrame API) |
-
-| Language | Python 3 |
-
-| Environment | Jupyter Notebook |
-
-| Visualization | Matplotlib, Pandas |
-
-
-
----
-
-
-
-\## 📊 Dataset
-
-
-
-The dataset is provided by \*\*Citi Bike New York City Open Data\*\* and contains anonymized trip records.
-
-
-
-🔗 \*\*Official portal\*\*  
-
+🔗 **Portail officiel**  
 https://citibikenyc.com/system-data  
 
-
-
-🔗 \*\*Direct download (2016 data)\*\*  
-
+🔗 **Téléchargement direct (données 2016)**  
 https://s3.amazonaws.com/tripdata/2016-citibike-tripdata.zip  
 
+### Caractéristiques du dataset
 
+- Fichiers CSV mensuels (Janvier–Décembre 2016)
+- Plusieurs millions d’enregistrements
+- Horaires et stations de départ/arrivée
+- Durée des trajets et type d’utilisateur
+- Informations démographiques optionnelles
 
-\*\*Dataset characteristics:\*\*
-
-\- Monthly CSV files (January–December 2016)
-
-\- Millions of trip records
-
-\- Start/end time and stations
-
-\- Trip duration and user type
-
-\- Optional demographic information
-
-
-
-> ⚠️ Due to its size, the dataset is \*\*not included\*\* in this repository.
-
-
+> ⚠️ En raison de sa taille, le dataset **n’est pas inclus** dans ce dépôt.
 
 ---
 
+## 📁 Structure Attendue des Données
 
+Après téléchargement et extraction :
 
-\## 📁 Expected Data Structure
-
-
-
-After downloading and extracting the dataset:
+```bash
 2016-citibike-tripdata/
-
 └── data/
+    └── 2016/
+        ├── 201601-citibike-tripdata.csv
+        ├── 201602-citibike-tripdata.csv
+        ├── ...
+        └── 201612-citibike-tripdata.csv
 
-└── 2016/
-
-├── 201601-citibike-tripdata.csv
-
-├── 201602-citibike-tripdata.csv
-
-├── ...
-
-└── 201612-citibike-tripdata.csv
 
 ---
 
