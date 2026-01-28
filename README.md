@@ -66,7 +66,6 @@ https://s3.amazonaws.com/tripdata/2016-citibike-tripdata.zip
 
 Après téléchargement et extraction :
 
-```bash
 2016-citibike-tripdata/
 └── data/
     └── 2016/
