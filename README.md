@@ -155,7 +155,7 @@ This bar chart shows the total number of Citi Bike trips per month in 2016.
 It clearly highlights the **strong seasonality** of bike usage, with a peak during summer months.
 
 <p align="center">
-  <img src="image/visualisation1.png" alt="Monthly CitiBike Trips 2016" width="700"/>
+  <img src="image/visualisation2.png" alt="Monthly CitiBike Trips 2016" width="700"/>
 </p>
 
 ---
@@ -169,7 +169,7 @@ It reveals:
 - a decline toward the end of the year
 
 <p align="center">
-  <img src="image/visualisation2.png" alt="Daily CitiBike Trips 2016" width="800"/>
+  <img src="image/visualisation1.png" alt="Daily CitiBike Trips 2016" width="800"/>
 </p>
 
 ---
